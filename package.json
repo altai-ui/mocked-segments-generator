@@ -1,0 +1,27 @@
+{
+  "name": "@qvant/mocked-segments-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --check --ignore-unknown '**/*'",
+    "prettier:fix": "prettier --write --ignore-unknown '**/*'",
+    "prepare": "husky install"
+  },
+  "bin": "./index.js",
+  "prettier": "@qvant/prettier-config",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "faker": "^5.4.0",
+    "inquirer": "^8.1.0",
+    "md5": "^2.3.0",
+    "sha.js": "^2.4.11",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@qvant/prettier-config": "^0.0.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  }
+}
