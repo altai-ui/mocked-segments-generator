@@ -1,16 +1,30 @@
 {
   "name": "@qvant/mocked-segments-generator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Utility for generation mocked files with specific entries",
+  "author": "Qvant Frontend team",
+  "license": "Apache-2.0",
+  "private": false,
   "main": "index.js",
+  "bin": "./index.js",
+  "prettier": "@qvant/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qvant-lab/mocked-segments-generator.git"
+  },
+  "keywords": [
+    "utility",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/Qvant-lab/mocked-segments-generator/issues"
+  },
+  "homepage": "https://github.com/Qvant-lab/mocked-segments-generator#readme",
   "scripts": {
     "prettier": "prettier --check --ignore-unknown '**/*'",
     "prettier:fix": "prettier --write --ignore-unknown '**/*'",
     "prepare": "husky install"
   },
-  "bin": "./index.js",
-  "prettier": "@qvant/prettier-config",
-  "license": "Apache-2.0",
   "dependencies": {
     "faker": "^5.4.0",
     "inquirer": "^8.1.0",
