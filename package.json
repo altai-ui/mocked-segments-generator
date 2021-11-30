@@ -38,6 +38,6 @@
     "@qvant/prettier-config": "^0.0.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.1",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   }
 }
