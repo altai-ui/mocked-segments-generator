@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "faker": "5.5.3",
-    "inquirer": "^8.2.2",
+    "inquirer": "^8.2.4",
     "md5": "^2.3.0",
     "sha.js": "^2.4.11",
     "uuid": "^8.3.2"
